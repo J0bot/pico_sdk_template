@@ -16,3 +16,17 @@ cd project_template
 wget https://raw.githubusercontent.com/J0bot/pico_tests/files/CMakeLists.txt
 
 #setup of the pico
+wget https://raw.githubusercontent.com/J0bot/pico_sdk_template/files/pico_sdk_import.cmake
+
+#creation of the c file
+wget https://raw.githubusercontent.com/J0bot/pico_sdk_template/files/test.c
+
+read -p "Already compile the projet ?" -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    mkdir build
+    cd build 
+    cmake ..
+    make test
+fi
