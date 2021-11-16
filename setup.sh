@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt updtate
+sudo apt upgrade
 sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 
 read -p "Already added pico-sdk to path ? (y/n) :" -n 1 -r
