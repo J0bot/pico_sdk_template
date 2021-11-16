@@ -13,7 +13,7 @@ mkdir project_template
 cd project_template
 
 #setup of the CmakeLists.txt file
-wget https://raw.githubusercontent.com/J0bot/pico_tests/files/CMakeLists.txt
+wget https://raw.githubusercontent.com/J0bot/pico_sdk_template/files/CMakeLists.txt
 
 #setup of the pico
 wget https://raw.githubusercontent.com/J0bot/pico_sdk_template/files/pico_sdk_import.cmake
